@@ -16,7 +16,7 @@ class graph{
     void addEdege(int i,int j){
         if (i>=0&&i<numberVertex && j>=0&&j<numberVertex){
             adjMatrix[i][j]=1;
-            adjMatrix[j][i]=1;
+            //adjMatrix[j][i]=1;
         }else{
             cout<<"Index Nonvalid"<<endl;
         }
